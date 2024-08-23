@@ -420,6 +420,47 @@ function App() {
       </div>  
 
       </section>
+
+      <section>
+        <div className="bg-[url('bg.jpg')] bg-cover bg-center h-auto w-auto lg:m-4 rounded-lg mt-1">
+
+        <div className=" text-center">
+        <button className="btn btn-green lg:mt-32 mt-4  "> <span> <img className="w-6" src="right-arrow.png" alt="right-arrow" /></span> Let’s Connect</button>
+        <h1 className="font-bold text-[24px] lg:text-[40px] mt-4">Let’s Discuss Next Project</h1>
+        <p className="font-medium text-[14px] lg:text-[16px] p-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      </div>
+
+      <div className="">
+        <div className="grid grid-cols-1">
+        <div className="flex flex-col items-center justify-center lg:grid grid-cols-2 lg:pl-60 lg:ml-20">
+      <input className="input w-5/6 max-w-md rounded-full mb-4" type="text" id="First-Name" placeholder="First Name*" />
+      <input className="input w-5/6 max-w-md rounded-full mb-4" type="text" id="Last-Name" placeholder="Last Name*" />
+      </div>
+      <div className="flex flex-col items-center justify-center lg:grid grid-cols-2 lg:pl-60 lg:ml-20">
+      <input className="input w-5/6 max-w-md rounded-full mb-4" type="number" id="First-Name" placeholder="Phone Number*" />
+      <input className="input w-5/6 max-w-md rounded-full mb-4" type="email" id="First-Name" placeholder="Email*" />
+      </div>
+      
+      <div className="flex flex-col items-center justify-center">
+      <textarea className="w-5/6 lg:w-8/12 h-48 px-4 py-2 border rounded-2xl mb-4" placeholder="Write your message here"></textarea>
+
+      <button className='btn md:flex font-bold text-[20px] w-[40vh] lg:w-8/12 h-16 text-black'>
+                Send Mail
+                <img
+                  className='w-12 rounded-full border-lime-900'
+                  src='right-upp.png'
+                  alt=''
+                />
+              </button>
+              </div>
+              </div>
+      </div>
+
+
+
+
+        </div>
+      </section>
     </>
   );
 }
