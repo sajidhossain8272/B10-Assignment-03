@@ -10,3 +10,8 @@
   @apply rounded-full bg-lime-200 hover:bg-lime-100 text-black border-lime-300;
 
 }
+
+.btn-about-us {
+  @apply rounded-full bg-white hover:bg-gray-100 text-black border-none;
+
+}
