@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import shoppingCart from '../src/assets/shoppingcart.svg'
-import searchIcon from "../src/assets/searchicon.svg"
+import shoppingCart from '../public/shoppingcart.svg'
+import searchIcon from '../public/searchicon.svg'
+ 
 import './App.css'
 
 function App() {
