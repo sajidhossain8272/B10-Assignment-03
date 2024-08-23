@@ -1,7 +1,6 @@
 import { useState } from "react";
 import shoppingCart from "../public/shoppingcart.svg";
 import searchIcon from "../public/searchicon.svg";
-
 import "./App.css";
 
 function App() {
@@ -10,10 +9,11 @@ function App() {
   return (
     <>
       <section className='Navigation font lg:overflow-hidden'>
-        <div className='navbar bg-base-100 w-full'>
-          <div className='navbar-start lg:ml-32'>
+        <div className="bg-gradient-to-b from-gray-100 to-white">
+        <div className='navbar w-full'>
+          <div className='navbar-start mt-4 lg:ml-32'>
             <div className='dropdown'>
-              <ul className='menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow '>
+              <ul className='menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow '>
                 <li>
                   <a>Home</a>
                 </li>
@@ -42,7 +42,7 @@ function App() {
             <a className='btn btn-ghost text-xl'>🡥</a>
             <h1 className='text-4xl font-extrabold ml-2'>Rinterio</h1>
           </div>
-          <div className='navbar-center hidden lg:flex lg:pr-32 sm:pl'>
+          <div className='navbar-center mt-4 hidden lg:flex lg:pr-32 sm:pl'>
             <ul className='menu menu-horizontal px-1 text-[16px]'>
               <li>
                 <a className='font-extrabold'>Home</a>
@@ -71,7 +71,7 @@ function App() {
               </li>
             </ul>
           </div>
-          <div className='navbar-end lg:pr-32'>
+          <div className='navbar-end mt-4 lg:pr-32'>
             <div className='hidden lg:flex'>
               <button className='bg-white rounded-full text-black w-10 h-10 ml-4 flex items-center justify-center'>
                 <img className='w-6' src={shoppingCart} alt='' />
@@ -81,7 +81,7 @@ function App() {
               </button>
             </div>
 
-            <a className='btn hidden md:flex font-extrabold text-[20px]'>
+            <a className='btn hidden md:flex font-extrabold text-[20px] w-auto h-14'>
               Book Consult
               <span className='bg-black text-white p-2 ml-0 rounded-full'>
                 {" "}
@@ -137,6 +137,24 @@ function App() {
             </div>
           </div>
         </div>
+        <div className="hero ">
+  <div className="hero-content text-center">
+    <div className="lg:mt-12">
+    <div className="flex items-center justify-center">
+      <img src="banner.png" alt="house" />
+      </div>
+      <h1 className=" text-black text-[28px] md:text-[64px] font-extrabold">A barn house of this <span className="lg:hidden"><br /></span>design has a <span className="hidden md:inline"> <br /> </span>  striking <span className="lg:hidden "> <br /></span> appearance</h1>
+      <p className="text-[16px] py-6">
+      The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+      </p>
+      <button className="btn btn-secondary text-[20px]">View Details <span className="bg-lime-300 rounded-full h-6 w-6 flex items-center justify-center">🡥</span></button>
+      
+    </div>
+  </div>
+</div>
+</div>
+
+        
       </section>
     </>
   );

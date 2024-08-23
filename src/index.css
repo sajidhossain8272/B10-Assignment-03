@@ -7,6 +7,6 @@
 }
 
 .btn-secondary {
-  @apply rounded-full bg-lime-200 hover:bg-lime-100 text-black border-none;
+  @apply rounded-full bg-lime-200 hover:bg-lime-100 text-black border-lime-300;
 
 }
