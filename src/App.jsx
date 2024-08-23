@@ -40,10 +40,10 @@ function App() {
             </div>
             <div className='navbar-end mt-4 lg:pr-32'>
               <div className='hidden lg:flex'>
-                <button className='bg-white rounded-full text-black w-10 h-10 ml-4 flex items-center justify-center'>
+                <button className='bg-white hover:bg-gray-100 rounded-full text-black w-10 h-10 ml-4 flex items-center justify-center'>
                   <img className='w-6' src={shoppingCart} alt='' />
                 </button>
-                <button className='bg-white rounded-full text-black text-3xl w-10 h-10 ml-4 mr-4 flex items-center justify-center'>
+                <button className='bg-white hover:bg-gray-100 rounded-full text-black text-3xl w-10 h-10 ml-4 mr-4 flex items-center justify-center'>
                   <img className='w-6' src={searchIcon} alt='' />
                 </button>
               </div>
@@ -216,7 +216,7 @@ function App() {
         </div>
 
 
-        <div className="flex flex-col items-center lg:flex lg:flex-row justify-center gap-6 mt-8 pb-32">
+        <div className="flex flex-col items-center lg:flex lg:flex-row justify-center gap-6 mt-8 pb-8">
         <div className="card card-side bg-pink-300 w-[275px]">
           <div>
             <div className="ml-6 pt-4">
@@ -267,6 +267,158 @@ function App() {
         </div>
 
         </div>
+      </section>
+
+      <section>
+
+
+     
+     
+     <div className="bg-gray-200 lg:bg-white pb-10">
+      
+
+      
+       
+      <div className=" text-center">
+        <button className="btn btn-green lg:mt-32 "> <span> <img className="w-6" src="right-arrow.png" alt="right-arrow" /></span> Explore our Latest works</button>
+        <h1 className="font-bold text-[24px] lg:text-[40px] mt-4">Our Latest Portfolio</h1>
+        <p className="font-medium text-[14px] lg:text-[16px] p-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+      </div>
+
+
+      <div className="lg:flex flex-wrap items-center justify-center gap-0">
+
+      <div className="bg-white rounded-2xl m-8 p-4 ">
+      <div className='card card-side  lg:border-2'>
+        <div className="flex lg:flex-row flex-col items-start ">
+
+        
+              <img className="mb-10 lg:mb-0 lg:mr-4 flex-shrink-0 w-full h-auto lg:h-[25vh] lg:w-1/3 lg:p-4"
+                src='img1.png'
+                alt='Commercial Building'
+              />
+            <div className='card-body p-0 lg:p-4 w-full lg:w-1/2'>
+              <h1 className='card-title text-start text-[20px]'>Commercial</h1>
+              <p className="text-[16px] text-start">The barn house captivates with its blend of rustic charm and modern.  </p>
+              <div className='card-actions justify-start'>
+              <button className='p-0 lg:p=4 btn btn-white text-[16px] text-black'>
+                  View Details{" "}
+                  <span className=' bg-lime-300 rounded-full h-6 w-6 flex items-center justify-center '>
+                    <img className="h-4 w-4" src='arrow-up.png' alt='' />
+                  </span>
+                </button>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+      </div>
+
+
+      <div className="bg-white rounded-2xl m-8 p-4">
+      <div className='card card-side lg:max-w-fit  lg:border-2'>
+        <div className="flex">
+
+        
+              <img className=" lg:mb-0 lg:mr-4 flex-shrink-0 w-full lg:h-[25vh] h-[25vh] lg:p-4"
+                src='img2.png'
+                alt='Commercial Building'
+              />
+            
+
+
+            </div>
+          </div>
+      </div>
+
+
+
+      <div className="bg-white rounded-2xl m-8 p-4">
+      <div className='card card-side lg:max-w-fit lg:border-2'>
+        <div className="flex">
+
+              <img className="lg:mb-0  lg:h-[25vh] flex-shrink-0 w-[40vh] lg:w-[40vh] h-full object-cover lg:p-4"
+                src='img5.png'
+                alt='Commercial Building'
+              />
+          
+
+
+            </div>
+          </div>
+      </div>
+
+
+
+      <div className="bg-white rounded-2xl m-8 p-4 ">
+      <div className='card card-side  lg:border-2'>
+        <div className="flex lg:flex-row flex-col items-start ">
+
+        
+              <img className="mb-10 lg:mb-0 lg:mr-4 flex-shrink-0 w-full h-[25vh] lg:h-[25vh] lg:w-1/2 lg:p-4"
+                src='img4.png'
+                alt='Commercial Building'
+              />
+            <div className='card-body p-0 lg:p-4 w-full lg:w-1/2'>
+              <h1 className='card-title text-start text-[20px]'>Commercial</h1>
+              <p className="text-[16px] text-start">The barn house captivates with spa <br className="hidden lg:flex" /> its blend of rustic charm and <br className="hidden lg:flex" /> modern.  </p>
+              <div className='card-actions justify-start'>
+              <button className='p-0 lg:p=4 btn btn-white text-[16px] text-black'>
+                  View Details{" "}
+                  <span className=' bg-lime-300 rounded-full h-6 w-6 flex items-center justify-center '>
+                    <img className="h-4 w-4" src='arrow-up.png' alt='' />
+                  </span>
+                </button>
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+      </div>
+
+
+
+
+      <div className="bg-white rounded-2xl m-8 p-4">
+      <div className='card card-side lg:w-fit lg:border-2'>
+        <div className="flex lg:flex-row flex-col items-start ">
+
+        
+              <img className="lg:mb-0 lg:mr-4 flex-shrink-0 w-full h-[30vh] lg:h-[25vh] lg:p-4"
+                src='img3.png'
+                alt='Commercial Building'
+              />
+
+
+            </div>
+          </div>
+      </div>
+
+
+
+      <div className=" lg:hidden bg-white rounded-2xl m-8 p-4">
+      <div className='card card-side  lg:border-2'>
+        <div className="flex lg:flex-row flex-col items-start ">
+
+        
+              <img className="lg:mb-0 lg:mr-4 flex-shrink-0 w-full h-[30vh] lg:p-4"
+                src='img5.png'
+                alt='Commercial Building'
+              />
+          
+
+
+            </div>
+          </div>
+      </div>
+
+
+      </div>
+
+      </div>  
+
       </section>
     </>
   );

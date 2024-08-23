@@ -15,3 +15,14 @@
   @apply rounded-full bg-white hover:bg-gray-100 text-black border-none;
 
 }
+
+.btn-green {
+  @apply rounded-full bg-green-200 hover:bg-green-100 text-black border-none;
+
+}
+
+.btn-white {
+  @apply rounded-full bg-white hover:bg-white text-black border-none;
+
+}
+
