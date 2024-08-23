@@ -11,7 +11,7 @@
 
 }
 
-.btn-about-us {
+.btn-neutral {
   @apply rounded-full bg-white hover:bg-gray-100 text-black border-none;
 
 }

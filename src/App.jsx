@@ -149,7 +149,7 @@ function App() {
           <div className="lg:w-[30vw] w-full">
             
           <div className="text-center lg:text-left">
-          <button className='btn btn-about-us w-32 mx-auto lg:mx-0'>
+          <button className='btn btn-neutral w-32 mx-auto lg:mx-0'>
             {" "}
             <span className='w-6'>
               {" "}
@@ -201,6 +201,72 @@ function App() {
           
         </div>
         
+      </section>
+
+      <section>
+        <div className="bg-gray-200">
+      
+
+      
+       
+        <div className="bg-gray-200 text-center">
+          <button className="btn btn-neutral mt-32 "> <span> <img className="w-6" src="right-arrow.png" alt="right-arrow" /></span> How we work</button>
+          <h1 className="font-bold text-[24px] lg:text-[40px] mt-4">Our Works Process</h1>
+          <p className="font-medium text-[14px] lg:text-[16px] mt-4">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+
+
+        <div className="flex flex-col items-center lg:flex lg:flex-row justify-center gap-6 mt-8 pb-32">
+        <div className="card card-side bg-pink-300 w-[275px]">
+          <div>
+            <div className="ml-6 pt-4">
+            <img className="w-12 h-12" src="concept.png" alt="light-bulb" />
+            </div>
+          <div className= "card-body pt-4">
+            <h1 className="card-tittle text-[20px] font-bold text-black">Concept</h1>
+            <p className="text-[16px] font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          </div>
+        </div>
+
+        <div className="card card-side bg-yellow-300 w-[275px]">
+          <div>
+            <div className="ml-6 pt-4">
+            <img className="w-12 h-12" src="flow-chart.png" alt="light-bulb" />
+            </div>
+          <div className= "card-body pt-4">
+            <h1 className="card-tittle text-[20px] font-bold text-black">Design Process</h1>
+            <p className="text-[16px] font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          </div>
+        </div>
+
+        <div className="card card-side bg-green-300 w-[275px]">
+          <div>
+            <div className="ml-6 pt-4">
+            <img className="w-12 h-12" src="vision.png" alt="light-bulb" />
+            </div>
+          <div className= "card-body pt-4">
+            <h1 className="card-tittle text-[20px] font-bold text-black">Supervision</h1>
+            <p className="text-[16px] font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          </div>
+        </div>
+
+        <div className="card card-side bg-blue-300 w-[275px]">
+          <div>
+            <div className="ml-6 pt-4">
+            <img className="w-12 h-12" src="budget-planning.png" alt="light-bulb" />
+            </div>
+          <div className= "card-body pt-4">
+            <h1 className="card-tittle text-[20px] font-bold text-black">Budget Planning</h1>
+            <p className="text-[16px] font-medium text-[#494949]">The barn house captivates with its blend of rustic charm and modern.</p>
+          </div>
+          </div>
+        </div>
+        </div>
+
+        </div>
       </section>
     </>
   );
