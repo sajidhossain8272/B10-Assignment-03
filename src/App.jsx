@@ -441,10 +441,10 @@ function App() {
       <input className="input w-5/6 max-w-md rounded-full mb-4" type="email" id="First-Name" placeholder="Email*" />
       </div>
       
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center pb-6">
       <textarea className="w-5/6 lg:w-8/12 h-48 px-4 py-2 border rounded-2xl mb-4" placeholder="Write your message here"></textarea>
 
-      <button className='btn md:flex font-bold text-[20px] w-[40vh] lg:w-8/12 h-16 text-black'>
+      <button className='btn md:flex font-bold text-[20px] w-[40vh] lg:w-8/12 h-16 text-black p'>
                 Send Mail
                 <img
                   className='w-12 rounded-full border-lime-900'
@@ -461,6 +461,38 @@ function App() {
 
         </div>
       </section>
+
+
+      <footer className="footer footer-center bg-[#1C1C1C] text-base-content rounded p-10">
+      <div className="flex">
+      <button className='btn h-full'>
+                  <img className='w-6' src='arrow-up.png' alt='' />
+                </button>
+                <h1 className='text-4xl text-[#E9E9E9] font-extrabold ml-2'>Rinterio</h1> </div>
+            <p className="text-[#737373] font-regular text-[16px]">The barn house captivates with its blend of rustic charm and modern sophistication, <br /> featuring weathered wood, sleek metal accents.</p>
+
+        
+        
+  <nav className="lg:grid lg:grid-flow-col lg:gap-16 text-[#E9E9E9] text-[16px] gap-8">
+    <a className="link link-hover">Home</a>
+    <a className="link link-hover">Services</a>
+    <a className="link link-hover">Portfolio</a>
+    <a className="link link-hover">Blogs</a>
+    <a className="link link-hover">Contact Us</a>
+
+
+  </nav>
+
+  <button className='flex btn md:flex font-extrabold text-[20px] w-full lg:w-max  h-14 text-black'>
+                Book Consult
+                <img
+                  className='w-12 rounded-full border-lime-900'
+                  src='right-upp.png'
+                  alt=''
+                />
+              </button>
+
+</footer>
     </>
   );
 }
