@@ -39,7 +39,7 @@ function App() {
                 </li>
               </ul>
             </div>
-            <a className='btn btn-ghost text-xl'>🡥</a>
+            <button className='btn h-full'><img className="w-6" src="arrow-up.png" alt="" /></button>
             <h1 className='text-4xl font-extrabold ml-2'>Rinterio</h1>
           </div>
           <div className='navbar-center mt-4 hidden lg:flex lg:pr-32 sm:pl'>
@@ -81,12 +81,9 @@ function App() {
               </button>
             </div>
 
-            <a className='btn hidden md:flex font-extrabold text-[20px] w-auto h-14'>
+            <a className='btn hidden md:flex font-extrabold text-[20px] w-56 h-16'>
               Book Consult
-              <span className='bg-black text-white p-2 ml-0 rounded-full'>
-                {" "}
-                🡭{" "}
-              </span>
+              <img className="w-12 rounded-full border-lime-900" src="right-upp.png" alt="" />
             </a>
             <div className='dropdown'>
               <div
@@ -147,7 +144,7 @@ function App() {
       <p className="text-[16px] py-6">
       The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
       </p>
-      <button className="btn btn-secondary text-[20px]">View Details <span className="bg-lime-300 rounded-full h-6 w-6 flex items-center justify-center">🡥</span></button>
+      <button className="btn btn-secondary text-[20px]">View Details <span className="bg-lime-300 rounded-full h-6 w-6 flex items-center justify-center"><img src="arrow-up.png" alt="" /></span></button>
       
     </div>
   </div>
