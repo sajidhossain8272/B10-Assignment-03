@@ -478,15 +478,15 @@ function App() {
                 />
               </svg>
             </div>
-            <div className='timeline-start mb-10 md:text-end'>
+            <div className='timeline-start mb-10 md:text-end shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700'>2000</time>
               <figure className='md:flex justify-end'>
                 <img src='garage.jpg' alt='' />
               </figure>
-              <div className='font text-bold font-black text-[24px]'>
+              <div className='font text-bold font-black text-[24px] p-4'>
                 Started Our Business from Our Garage
               </div>
-              <p className="font text-regular font-black text-[16px]">Rinterio began as a passion project, born out of a small garage that doubled as a creative workshop. With little more than a few tools, a sketchpad, and a vision, we set out to redefine interior design. The garage became a hub of innovation, where late nights were spent crafting ideas and early mornings were dedicated to bringing those ideas to life.</p>
+              <p className="font text-regular font-black text-[16px] p-4 text-justify">Rinterio began as a passion project, born out of a small garage that doubled as a creative workshop. With little more than a few tools, a sketchpad, and a vision, we set out to redefine interior design. The garage became a hub of innovation, where late nights were spent crafting ideas and early mornings were dedicated to bringing those ideas to life.</p>
             </div>
             <hr />
           </li>
@@ -506,15 +506,15 @@ function App() {
                 />
               </svg>
             </div>
-            <div className='timeline-end mb-10'>
+            <div className='timeline-end mb-10 shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700 '>2006</time>
               <figure className='md:flex justify-start'>
-                <img src='mumbaifs' alt='' />
+                <img src='mumbai.jpg' alt='' />
               </figure>
-              <div className='font text-bold font-black text-[24px]'>
+              <div className='font text-bold font-black text-[24px] p-4'>
                 Got Recognized in the Asian Markets
               </div>
-              <p className="font text-regular font-black text-[16px]">In 2006, Rinterio reached a pivotal milestone when our innovative designs caught the attention of the Asian markets. What began as a small local venture was suddenly making waves across the continent. Our unique blend of modern aesthetics and practical functionality resonated with a diverse audience, leading to widespread acclaim. We were featured in prominent design publications and received accolades at prestigious industry events.</p>
+              <p className="font text-regular font-black text-[16px] p-4 text-justify">In 2006, Rinterio reached a pivotal milestone when our innovative designs caught the attention of the Asian markets. What began as a small local venture was suddenly making waves across the continent. Our unique blend of modern aesthetics and practical functionality resonated with a diverse audience, leading to widespread acclaim. We were featured in prominent design publications and received accolades at prestigious industry events.</p>
             </div>
             <hr />
           </li>
@@ -534,15 +534,15 @@ function App() {
                 />
               </svg>
             </div>
-            <div className='timeline-start mb-10 md:text-end'>
+            <div className='timeline-start mb-10 md:text-end shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700'>2012</time>
               <figure className='md:flex justify-end'>
                 <img src='america.jpg' alt='' />
               </figure>
-              <div className='font text-bold font-black text-[24px]'>
+              <div className='font text-bold font-black text-[24px] p-4'>
                 Got Recognized in the USA
               </div>
-              <p className="font text-regular font-black text-[16px]">Rinterio achieved a major milestone by gaining recognition in the USA. Our unique design philosophy and exceptional craftsmanship captured the attention of influential design critics and enthusiasts across the country. This recognition came through features in leading design magazines, appearances on popular design shows, and accolades at renowned industry events. The American market embraced our innovative approach, leading to new partnerships and expanded opportunities. This pivotal moment not only validated our global vision but also cemented our reputation as a leading force in the design industry.</p>
+              <p className="font text-regular font-black text-[16px] p-4 text-justify">Rinterio achieved a major milestone by gaining recognition in the USA. Our unique design philosophy and exceptional craftsmanship captured the attention of influential design critics and enthusiasts across the country. This recognition came through features in leading design magazines, appearances on popular design shows, and accolades at renowned industry events. The American market embraced our innovative approach, leading to new partnerships and expanded opportunities. This pivotal moment not only validated our global vision but also cemented our reputation as a leading force in the design industry.</p>
             </div>
             <hr />
           </li>
@@ -562,15 +562,15 @@ function App() {
                 />
               </svg>
             </div>
-            <div className='timeline-end mb-10'>
+            <div className='timeline-end mb-10 shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700'>2017</time>
               <figure className='md:flex justify-start'>
                 <img src='award.jpg' alt='' />
               </figure>
-              <div className='font text-bold font-black text-[24px]'>
+              <div className='font text-bold font-black text-[24px] p-4'>
                 Rinterio was Honored by World Property Awards 2017
               </div>
-              <p className="font text-regular font-black text-[16px]">In 2017, Rinterio received a prestigious accolade at the World Property Awards. This honor was a testament to our dedication to excellence and innovation in design. Recognized on a global stage, the award highlighted our ability to blend creativity with functionality, setting us apart in the industry. This achievement not only celebrated our past successes but also paved the way for future endeavors, affirming our commitment to delivering exceptional and inspiring spaces worldwide.</p>
+              <p className="font text-regular font-black text-[16px] p-4 text-justify">In 2017, Rinterio received a prestigious accolade at the World Property Awards. This honor was a testament to our dedication to excellence and innovation in design. Recognized on a global stage, the award highlighted our ability to blend creativity with functionality, setting us apart in the industry. This achievement not only celebrated our past successes but also paved the way for future endeavors, affirming our commitment to delivering exceptional and inspiring spaces worldwide.</p>
             </div>
             <hr />
           </li>
@@ -590,15 +590,15 @@ function App() {
                 />
               </svg>
             </div>
-            <div className='timeline-start mb-10 md:text-end'>
+            <div className='timeline-start mb-10 md:text-end shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700'>2024</time>
               <figure className='md:flex justify-end'>
                 <img src='dubai.jpg' alt='' />
               </figure>
-              <div className='font text-bold font-black text-[24px]'>
+              <div className='font text-bold font-black text-[24px] p-4'>
                 Become Dubai's No 1 Real Estate company
               </div>
-              <p className="font text-regular font-black text-[16px]">In 2024, Rinterio achieved a landmark success by becoming Dubai's leading real estate company. Our dedication to exceptional design, unmatched quality, and innovative solutions propelled us to the top of the industry. This recognition reflects our commitment to transforming spaces and setting new standards in the real estate market. As Dubai's number one, we continue to shape the future of real estate with visionary projects and unparalleled service, solidifying our position as a trusted leader in the industry.</p>
+              <p className="font text-regular font-black text-[16px] p-4 text-justify">In 2024, Rinterio achieved a landmark success by becoming Dubai's leading real estate company. Our dedication to exceptional design, unmatched quality, and innovative solutions propelled us to the top of the industry. This recognition reflects our commitment to transforming spaces and setting new standards in the real estate market. As Dubai's number one, we continue to shape the future of real estate with visionary projects and unparalleled service, solidifying our position as a trusted leader in the industry.</p>
             </div>
           </li>
         </ul>
