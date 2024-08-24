@@ -640,7 +640,7 @@ function App() {
       </section>
 
       <section>
-        <div className="bg-[url('bg.jpg')] bg-cover bg-center h-auto w-auto lg:m-4 rounded-lg mt-1">
+        <div className="background bg-cover bg-center h-auto w-auto lg:m-4 rounded-lg mt-1">
           <div className=' text-center'>
             <button className='btn btn-green lg:mt-32 mt-4  '>
               {" "}

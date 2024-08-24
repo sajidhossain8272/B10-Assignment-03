@@ -11,3 +11,8 @@
   font-optical-sizing: auto;
 
 }
+
+/* Background Image Fix */
+.background {
+  background-image: url(../public/bg.jpg);
+}
