@@ -480,7 +480,7 @@ function App() {
             </div>
             <div className='timeline-start mb-10 md:text-end shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700'>2000</time>
-              <figure className='md:flex justify-end'>
+              <figure className='md:flex justify-end p-4'>
                 <img src='garage.jpg' alt='' />
               </figure>
               <div className='font text-bold font-black text-[24px] p-4'>
@@ -508,7 +508,7 @@ function App() {
             </div>
             <div className='timeline-end mb-10 shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700 '>2006</time>
-              <figure className='md:flex justify-start'>
+              <figure className='md:flex justify-start p-4'>
                 <img src='mumbai.jpg' alt='' />
               </figure>
               <div className='font text-bold font-black text-[24px] p-4'>
@@ -536,7 +536,7 @@ function App() {
             </div>
             <div className='timeline-start mb-10 md:text-end shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700'>2012</time>
-              <figure className='md:flex justify-end'>
+              <figure className='md:flex justify-end p-4'>
                 <img src='america.jpg' alt='' />
               </figure>
               <div className='font text-bold font-black text-[24px] p-4'>
@@ -564,7 +564,7 @@ function App() {
             </div>
             <div className='timeline-end mb-10 shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700'>2017</time>
-              <figure className='md:flex justify-start'>
+              <figure className='md:flex justify-start p-4'>
                 <img src='award.jpg' alt='' />
               </figure>
               <div className='font text-bold font-black text-[24px] p-4'>
@@ -592,7 +592,7 @@ function App() {
             </div>
             <div className='timeline-start mb-10 md:text-end shadow-xl'>
               <time className='font font-bold italic text2xl text-lime-700'>2024</time>
-              <figure className='md:flex justify-end'>
+              <figure className='md:flex justify-end p-4'>
                 <img src='dubai.jpg' alt='' />
               </figure>
               <div className='font text-bold font-black text-[24px] p-4'>
