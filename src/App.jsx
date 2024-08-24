@@ -158,9 +158,8 @@ function App() {
                   We design thoughtful, liveable spaces
                 </h1>
                 <p className='font-medium text-[13px] lg:text-[16px] pt-6 pb-6'>
-                  The barn house captivates with its blend of rustic charm and{" "}
-                  <br /> modern sophistication, featuring weathered wood, sleek
-                  metal accents.
+                We create spaces that are both beautiful and functional,{" "}
+                  <br /> designed with care to enhance everyday living. Our focus is on crafting environments that feel inviting, comfortable, and truly livable.
                 </p>
 
                 <div className='card card-side bg-base-100 shadow-xl'>
@@ -174,8 +173,7 @@ function App() {
                   <div className='card-body'>
                     <h1 className='card-title'>Commercial</h1>
                     <p className='text-[14px] text-start lg:text-[16px]'>
-                      The barn house captivates with its blend of rustic charm
-                      and modern.
+                       Creating a unique and inviting atmosphere for any commercial space.
                     </p>
                     <div className='card-actions justify-end'></div>
                   </div>
@@ -192,8 +190,7 @@ function App() {
                   <div className='card-body'>
                     <h1 className='card-title'>Residential</h1>
                     <p className='text-[14px] text-start lg:text-[16px]'>
-                      The barn house captivates with its blend of rustic charm
-                      and modern.
+                    Creating a unique and inviting atmosphere for any residential space.
                     </p>
                     <div className='card-actions justify-end'></div>
                   </div>
@@ -226,10 +223,8 @@ function App() {
             <h1 className='font-bold text-[24px] lg:text-[40px] mt-4'>
               Our Works Process
             </h1>
-            <p className='font-medium text-[14px] lg:text-[16px] mt-4'>
-              The barn house captivates with its blend of rustic charm and
-              modern sophistication, featuring weathered wood, sleek metal
-              accents.
+            <p className='font-medium text-[14px] lg:text-[16px] mt-4  p-4'>
+            We follow a streamlined process that begins with understanding your vision, followed by thoughtful planning and design.
             </p>
           </div>
 
@@ -248,8 +243,7 @@ function App() {
                     Concept
                   </h1>
                   <p className='text-[16px] font-medium text-[#494949]'>
-                    The barn house captivates with its blend of rustic charm and
-                    modern.
+                  Where ideas take shape, guiding the vision and direction of your project.
                   </p>
                 </div>
               </div>
@@ -269,8 +263,7 @@ function App() {
                     Design Process
                   </h1>
                   <p className='text-[16px] font-medium text-[#494949]'>
-                    The barn house captivates with its blend of rustic charm and
-                    modern.
+                  Turning concepts into detailed plans, bringing your vision to life.
                   </p>
                 </div>
               </div>
@@ -290,8 +283,7 @@ function App() {
                     Supervision
                   </h1>
                   <p className='text-[16px] font-medium text-[#494949]'>
-                    The barn house captivates with its blend of rustic charm and
-                    modern.
+                  Overseeing every phase of the project to ensure quality and precision in every detail.
                   </p>
                 </div>
               </div>
@@ -311,8 +303,7 @@ function App() {
                     Budget Planning
                   </h1>
                   <p className='text-[16px] font-medium text-[#494949]'>
-                    The barn house captivates with its blend of rustic charm and
-                    modern.
+                  Strategically managing costs to align your vision with financial goals.
                   </p>
                 </div>
               </div>
@@ -336,9 +327,7 @@ function App() {
               Our Latest Portfolio
             </h1>
             <p className='font-medium text-[14px] lg:text-[16px] p-4'>
-              The barn house captivates with its blend of rustic charm and
-              modern sophistication, featuring weathered wood, sleek metal
-              accents.
+            Showcasing our most recent projects that highlight our commitment to excellence in design and execution.
             </p>
           </div>
 
@@ -469,8 +458,7 @@ function App() {
             Our Journey
           </h1>
           <p className='font-medium text-[14px] lg:text-[16px] p-4'>
-            The barn house captivates with its blend of rustic charm and modern
-            sophistication, featuring weathered wood, sleek metal accents.
+          A reflection of our growth, challenges, and achievements that have shaped who we are today.
           </p>
         </div>
 
@@ -493,17 +481,12 @@ function App() {
             <div className='timeline-start mb-10 md:text-end'>
               <time className='font-mono italic'>2000</time>
               <figure className='md:flex justify-end'>
-                <img src='img3.png' alt='' />
+                <img src='garage.jpg' alt='' />
               </figure>
-              <div className='text-lg font-black'>
+              <div className='font text-bold font-black text-[24px]'>
                 Started Our Business from Our Garage
               </div>
-              The Apple Macintosh—later rebranded as the Macintosh 128K—is the
-              original Apple Macintosh personal computer. It played a pivotal
-              role in establishing desktop publishing as a general office
-              function. The motherboard, a 9 in (23 cm) CRT monitor, and a
-              floppy drive were housed in a beige case with integrated carrying
-              handle; it came with a keyboard and single-button mouse.
+              <p className="font text-regular font-black text-[16px]">Rinterio began as a passion project, born out of a small garage that doubled as a creative workshop. With little more than a few tools, a sketchpad, and a vision, we set out to redefine interior design. The garage became a hub of innovation, where late nights were spent crafting ideas and early mornings were dedicated to bringing those ideas to life.</p>
             </div>
             <hr />
           </li>
@@ -526,15 +509,12 @@ function App() {
             <div className='timeline-end mb-10'>
               <time className='font-mono italic'>2006</time>
               <figure className='md:flex justify-start'>
-                <img src='img3.png' alt='' />
+                <img src='mumbai.jpg' alt='' />
               </figure>
-              <div className='text-lg font-black'>
+              <div className='font text-bold font-black text-[24px]'>
                 Got Recognized in the Asian Markets
               </div>
-              iMac is a family of all-in-one Mac desktop computers designed and
-              built by Apple Inc. It has been the primary part of Apple's
-              consumer desktop offerings since its debut in August 1998, and has
-              evolved through seven distinct forms
+              <p className="font text-regular font-black text-[16px]">In 2006, Rinterio reached a pivotal milestone when our innovative designs caught the attention of the Asian markets. What began as a small local venture was suddenly making waves across the continent. Our unique blend of modern aesthetics and practical functionality resonated with a diverse audience, leading to widespread acclaim. We were featured in prominent design publications and received accolades at prestigious industry events.</p>
             </div>
             <hr />
           </li>
@@ -557,18 +537,12 @@ function App() {
             <div className='timeline-start mb-10 md:text-end'>
               <time className='font-mono italic'>2012</time>
               <figure className='md:flex justify-end'>
-                <img src='img3.png' alt='' />
+                <img src='america.jpg' alt='' />
               </figure>
-              <div className='text-lg font-black'>
+              <div className='font text-bold font-black text-[24px]'>
                 Got Recognized in the USA
               </div>
-              The iPod is a discontinued series of portable media players and
-              multi-purpose mobile devices designed and marketed by Apple Inc.
-              The first version was released on October 23, 2001, about 8+1⁄2
-              months after the Macintosh version of iTunes was released. Apple
-              sold an estimated 450 million iPod products as of 2022. Apple
-              discontinued the iPod product line on May 10, 2022. At over 20
-              years, the iPod brand is the oldest to be discontinued by Apple
+              <p className="font text-regular font-black text-[16px]">Rinterio achieved a major milestone by gaining recognition in the USA. Our unique design philosophy and exceptional craftsmanship captured the attention of influential design critics and enthusiasts across the country. This recognition came through features in leading design magazines, appearances on popular design shows, and accolades at renowned industry events. The American market embraced our innovative approach, leading to new partnerships and expanded opportunities. This pivotal moment not only validated our global vision but also cemented our reputation as a leading force in the design industry.</p>
             </div>
             <hr />
           </li>
@@ -591,18 +565,12 @@ function App() {
             <div className='timeline-end mb-10'>
               <time className='font-mono italic'>2017</time>
               <figure className='md:flex justify-start'>
-                <img src='img3.png' alt='' />
+                <img src='award.jpg' alt='' />
               </figure>
-              <div className='text-lg font-black'>
-                Rinterio was Honoured by World Property Awards 2017
+              <div className='font text-bold font-black text-[24px]'>
+                Rinterio was Honored by World Property Awards 2017
               </div>
-              iPhone is a line of smartphones produced by Apple Inc. that use
-              Apple's own iOS mobile operating system. The first-generation
-              iPhone was announced by then-Apple CEO Steve Jobs on January 9,
-              2007. Since then, Apple has annually released new iPhone models
-              and iOS updates. As of November 1, 2018, more than 2.2 billion
-              iPhones had been sold. As of 2022, the iPhone accounts for 15.6%
-              of global smartphone market share
+              <p className="font text-regular font-black text-[16px]">In 2017, Rinterio received a prestigious accolade at the World Property Awards. This honor was a testament to our dedication to excellence and innovation in design. Recognized on a global stage, the award highlighted our ability to blend creativity with functionality, setting us apart in the industry. This achievement not only celebrated our past successes but also paved the way for future endeavors, affirming our commitment to delivering exceptional and inspiring spaces worldwide.</p>
             </div>
             <hr />
           </li>
@@ -625,15 +593,12 @@ function App() {
             <div className='timeline-start mb-10 md:text-end'>
               <time className='font-mono italic'>2024</time>
               <figure className='md:flex justify-end'>
-                <img src='img3.png' alt='' />
+                <img src='dubai.jpg' alt='' />
               </figure>
-              <div className='text-lg font-black'>
+              <div className='font text-bold font-black text-[24px]'>
                 Become Dubai's No 1 Real Estate company
               </div>
-              The Apple Watch is a line of smartwatches produced by Apple Inc.
-              It incorporates fitness tracking, health-oriented capabilities,
-              and wireless telecommunication, and integrates with iOS and other
-              Apple products and services
+              <p className="font text-regular font-black text-[16px]">In 2024, Rinterio achieved a landmark success by becoming Dubai's leading real estate company. Our dedication to exceptional design, unmatched quality, and innovative solutions propelled us to the top of the industry. This recognition reflects our commitment to transforming spaces and setting new standards in the real estate market. As Dubai's number one, we continue to shape the future of real estate with visionary projects and unparalleled service, solidifying our position as a trusted leader in the industry.</p>
             </div>
           </li>
         </ul>
