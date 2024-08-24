@@ -509,7 +509,7 @@ function App() {
             <div className='timeline-end mb-10'>
               <time className='font font-bold italic text2xl text-lime-700 '>2006</time>
               <figure className='md:flex justify-start'>
-                <img src='mumbai.jpg' alt='' />
+                <img src='mumbaifs' alt='' />
               </figure>
               <div className='font text-bold font-black text-[24px]'>
                 Got Recognized in the Asian Markets
