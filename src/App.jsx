@@ -479,7 +479,7 @@ function App() {
               </svg>
             </div>
             <div className='timeline-start mb-10 md:text-end'>
-              <time className='font-mono italic'>2000</time>
+              <time className='font font-bold italic text2xl text-lime-700'>2000</time>
               <figure className='md:flex justify-end'>
                 <img src='garage.jpg' alt='' />
               </figure>
@@ -507,7 +507,7 @@ function App() {
               </svg>
             </div>
             <div className='timeline-end mb-10'>
-              <time className='font-mono italic'>2006</time>
+              <time className='font font-bold italic text2xl text-lime-700 '>2006</time>
               <figure className='md:flex justify-start'>
                 <img src='mumbai.jpg' alt='' />
               </figure>
@@ -535,7 +535,7 @@ function App() {
               </svg>
             </div>
             <div className='timeline-start mb-10 md:text-end'>
-              <time className='font-mono italic'>2012</time>
+              <time className='font font-bold italic text2xl text-lime-700'>2012</time>
               <figure className='md:flex justify-end'>
                 <img src='america.jpg' alt='' />
               </figure>
@@ -563,7 +563,7 @@ function App() {
               </svg>
             </div>
             <div className='timeline-end mb-10'>
-              <time className='font-mono italic'>2017</time>
+              <time className='font font-bold italic text2xl text-lime-700'>2017</time>
               <figure className='md:flex justify-start'>
                 <img src='award.jpg' alt='' />
               </figure>
@@ -591,7 +591,7 @@ function App() {
               </svg>
             </div>
             <div className='timeline-start mb-10 md:text-end'>
-              <time className='font-mono italic'>2024</time>
+              <time className='font font-bold italic text2xl text-lime-700'>2024</time>
               <figure className='md:flex justify-end'>
                 <img src='dubai.jpg' alt='' />
               </figure>
